@@ -1,0 +1,840 @@
+PeerPilot UI Observations Extracted from Review Report
+============================================================
+
+Section-wise analysis of strengths and weaknesses identified in the methodology.
+
+## Methods: Study design
+Two secondary outcomes not prespecified in trial registry
+The registry lists secondary outcomes including maternal pain and sedation at other timepoints, hemodynamic
+variables, Apgar scores, umbilical vein pH, and esketamine levels, but does not include neonatal ward admission or
+length of postoperative hospital stay. The manuscript analyzes both of these as predefined outcomes (Table 2 and
+text). Adding unregistered secondary outcomes without clear disclosure introduces risk of selective emphasis,
+especially for safety/health service utilization endpoints. Although they are not primary, this discrepancy weakens
+alignment between protocol and reporting and is therefore rated as a major registration issue.
+Recommendation:
+Explicitly state in the Methods that neonatal ward admission and postoperative length of stay were added after
+initial registration, including when and why. Update the trial registry to include these outcomes, and clearly
+distinguish prespecified from post hoc endpoints in the manuscript.
+
+## Methods: Study design
+Completion date differs substantially from registry record
+The manuscript reports enrollment from September 18, 2021, to September 20, 2022, implying that both primary and
+follow-up data collection were completed by 2022. The public registry lists an overall completion date of 2024-09-30.
+This ~2-year discrepancy is not explained (e.g., earlier-than-planned completion, extended follow-up, or registry not
+updated). While it may be administrative, such inconsistencies complicate external verification and can obscure
+whether additional data were collected beyond what is analyzed here. Because transparency about trial status and
+completion is central to trust, this is a major, but remediable, weakness.
+Recommendation:
+Clarify in the manuscript whether the trial finished earlier than the registry completion date or whether this report
+reflects a prespecified interim or primary-completion analysis. Update the registry record to match the actual
+completion date and describe any differences between registry and manuscript timelines.
+6
+Severity:  | Confidence: Minor MediumWeakness
+Severity:  | Confidence: Minor HighWeakness
+
+## Methods: Study design
+Power calculation targets difference below stated clinically important change
+The sample size was powered to detect a mean difference of 0.3 points on the 0–10 NRS (SD 0.85–1.23) with 90%
+power, yet the Methods define a minimal clinically meaningful change as ≥1.65 NRS points. Thus, the trial was explicitly
+powered to detect a statistically significant effect much smaller than the prespecified threshold of clinical importance.
+This creates a design mismatch: the study may detect trivial differences while being underpowered for the effect size
+considered clinically meaningful. The authors partly mitigate this by appropriately concluding that the statistically
+significant difference in pain was not clinically important, but the initial power specification remains suboptimal.
+"0.3, with SDs of 0.85 in the esketamine group and 1.23 in the control group.
+Recommendation:
+Align future power calculations with the predefined minimal clinically important difference (e.g., 1.65 NRS points), or
+justify in the protocol why targeting a smaller difference is clinically meaningful. In the current paper, add a brief
+comment acknowledging that the power calculation was based on a smaller effect than the clinical threshold.
+
+## Methods: Study design
+Extensive exploratory and safety comparisons without broad multiplicity control
+The study conducts numerous comparisons: multiple timepoints for pain and sedation, several hemodynamic
+measurements, and a long list of adverse events, plus additional exploratory dichotomizations (e.g., NRS>2, Ramsay≥4)
+that were not clearly prespecified. Bonferroni adjustments are applied for some repeated measures (eTable 2, eTable
+3), but no comprehensive strategy is described for the many safety and exploratory endpoints. This increases the risk
+of inflated type I error, especially for modest associations. Large, highly significant differences (e.g., neurologic/mental
+symptoms 97.7% vs 4.7%, p<.001) are robust, but smaller p≈0.04–0.05 findings may be less reliable.
+"proportion of patients with Ramsay Sedation Scale scores of 4 or higher ... were significantly higher
+Recommendation:
+Clearly distinguish prespecified from exploratory analyses, especially for dichotomized outcomes. Consider
+applying or at least discussing appropriate multiplicity control for families of safety and exploratory endpoints, and
+temper conclusions about marginal p-values that may be susceptible to chance findings.
+7
+Severity:  | Confidence: Minor HighWeakness
+
+## Methods: Study design
+Placental transfer substudy small and potentially unrepresentative
+Maternal arterial, umbilical arterial, and umbilical venous esketamine concentrations were measured in only 13 women
+in the esketamine group. The sampling strategy for these 13 (e.g., consecutive, convenience, or selected) is not
+described, raising potential selection bias. While these data are appropriately interpreted as exploratory, the small,
+possibly non-representative subsample limits the precision and generalizability of conclusions about placental transfer
+kinetics.
+"concentrations were measured
+Recommendation:
+Clarify how the 13 participants for pharmacokinetic sampling were selected and emphasize more strongly in the
+Results and Discussion that these findings are exploratory and may not fully represent the whole esketamine group.
+If feasible in future work, plan a larger, systematically sampled PK substudy.
+
+## Methods: Study design
+Prospective trial registration consistent with primary outcomes and sample size
+The trial was prospectively registered at ClinicalTrials.gov (NCT04548973) on 2020-09-16, before first enrollment on
+2021-09-18. The registered primary outcomes (maternal pain intensity and maternal sedation level) match the
+manuscript's coprimary outcomes in construct, and the planned enrollment of 600 participants matches the reported
+randomized sample. This supports transparency of the primary objectives and minimizes risk of primary outcome
+switching or selective reporting. The availability of a formal protocol and statistical analysis plan as Supplement 1
+further strengthens credibility.
+8
+
+## Methods: Study design
+Robust multicenter randomization with allocation concealment and blinding
+The study uses a multicenter, double-blind, placebo-controlled parallel-group design with 1:1 randomization, central
+generation of the sequence in SPSS, and sequentially numbered opaque envelopes for concealment. Study
+coordinators uninvolved in outcome assessment prepared indistinguishable esketamine and saline syringes, and all
+patients, anesthesiologists, and outcome assessors were blinded. Such procedures minimize selection and
+performance bias and are fully appropriate for the research question about efficacy and safety of esketamine as
+supplemental analgesia.
+"Assignments were concealed in sequentially numbered opaque envelopes.
+
+## Methods: Study design
+Clear eligibility criteria and clinically relevant target population
+Inclusion and exclusion criteria are explicit and clinically sensible: adult women with term singleton pregnancies
+scheduled for elective cesarean delivery under epidural anesthesia, excluding significant comorbidities and obstetric
+complications. This yields a relatively homogeneous, ASA II population suitable for evaluating sedative and analgesic
+effects and neonatal safety. The multicenter design with fixed per-site quotas (Table 1, eTable 1) supports external
+validity within similar tertiary hospital settings.
+"examination and were scheduled for elective cesarean delivery with epidural anesthesia.
+
+## Methods: Study design
+Appropriate analyses with ITT, per-protocol, and multiplicity control
+The authors pre-specify an intention-to-treat primary analysis with a supportive per-protocol analysis for coprimary
+outcomes, which is good practice in RCTs. They use Mann-Whitney U tests for NRS pain and Ramsay Sedation scores,
+which are ordinal and skewed, and t tests or chi-square tests where appropriate. For the two coprimary outcomes they
+adjust alpha to 0.025 (0.05/2), and for repeated timepoints they apply Bonferroni corrections (e.g., p<0.006 for 8 pain
+/sedation timepoints). Effect estimates are reported with 95% CIs (median differences, RR, mean differences, HR),
+facilitating interpretation beyond p-values. Overall, the statistical methods are appropriate and clearly reported.
+"were performed using the Mann-Whitney U test.
+9
+
+## Methods: Study design
+CONSORT-style reporting with minimal attrition and clear flow
+The manuscript describes screening, randomization, exclusions, and follow-up, with a flow diagram (Figure 1) and
+explicit counts of deviations (e.g., 3 not dosed, 4 missing 12-hour follow-up). All 600 randomized women are included
+in the intention-to-treat analysis, and 597 in per-protocol analyses. Baseline characteristics and intraoperative variables
+by group are presented (Table 1), showing good balance. This level of reporting supports internal validity and allows
+readers to assess potential attrition or selection biases, which appear minimal.
+During the study period, 3 women did not receive study drugs, and 4 women refused follow-up at 12 hours after the
+"surgery.
+
+## Methods: Study design
+Site enrollment totals internally consistent with overall sample size
+A numerical consistency check of eTable 1 confirms that the number of participants enrolled at each site (180, 160, 80,
+120, 60) sums exactly to the total sample size of 600 reported in the main text. This internal consistency supports the
+reliability of the recruitment data and suggests careful data management across participating centers.
+
+## Methods: Study design
+Adverse event percentages accurately calculated from denominators
+Recalculation of key adverse event percentages, such as hypotension (26/300=8.7%), hypertension (23/300=7.7%),
+tachycardia (81/300=27.0%), and postoperative nausea/vomiting (69/300=23.0%), shows that all reported values are
+correct within rounding tolerance. Accurate reporting of event rates enhances the trustworthiness of the safety profile
+and suggests careful tabulation of outcomes.
+10
+Good Evidence Integration
+Literature Review
+Overall Recommendation
+From a literature perspective, the manuscript is generally well grounded: it contextualizes the trial within relevant
+preclinical work, intrathecal and postoperative esketamine studies, ketamine-based cesarean analgesia, and
+postpartum depression literature, and it articulates remaining uncertainties around intravenous esketamine use in
+cesarean delivery. The main opportunities for improvement are technical but important: tighten citation–claim alignment
+in the Discussion (especially for prior ketamine efficacy comparisons and prophylactic cesarean ketamine/esketamine
+use), use a more appropriate analytical-method reference for esketamine quantification, and remove or correct
+duplicate and unverified references. Addressing these minor issues would further strengthen transparency and the
+credibility of the evidence synthesis without altering the studyʼs main conclusions.
+Weaknesses
+1 Some citations are misaligned with the specific claims
+they are used to support
+2 Reference list contains duplicate and incomplete or
+unverified entries
+Strengths
+1 Introduction synthesizes preclinical and clinical
+esketamine data coherently
+2 Recent high-quality ketamine/esketamine cesarean
+trials are well covered
+3 Gaps in evidence are explicitly acknowledged and
+appropriately framed
+80
+/100
+11
+Overview
+Total references: 56
+Reference Drilldown
+List of old references:
+The following old references were detected. Newer sources should be cited wherever possible.
+1 Ng K, Parsons J, Cyna AM, Middleton P. Spinal versus epidural anaesthesia for caesarean section. Cochrane
+Database Syst Rev. 2004;2004(2):CD003765. doi:10.1002/14651858.CD003765.pub2
+2 Campbell DC, Tran T. Conversion of epidural labour analgesia to epidural anesthesia for intrapartum Cesarean
+delivery. Can J Anaesth. 2009;56(1):19-26. doi:10.1007/s12630-008-9004-7
+3 Nau C, Strichartz GR. Drug chirality in anesthesia. Anesthesiology. 2002;97(2):497-502. doi:10.1097/ 00000542-
+200208000-00029
+4 Strümper D, Gogarten W, Durieux ME, Hartleb K, Van Aken H, Marcus MAE. The effects of S+-ketamine and racemic
+ketamine on uterine blood flow in chronically instrumented pregnant sheep. Anesth Analg. 2004;98(2): 497-502. doi:
+10.1213/01.ANE.0000096243.74182.5E
+5 Unlugenc H, Ozalevli M, Gunes Y, et al. A double-blind comparison of intrathecal S(+) ketamine and fentanyl
+combined with bupivacaine 0.5% for Caesarean delivery. Eur J Anaesthesiol. 2006;23(12):1018-1024. doi:10.1017/
+S0265021506000950
+6 Hanson AL, Hanson B, Matousek M. Epidural anesthesia for cesarean section. The effect of morphine- bupivacaine
+administered epidurally for intra and postoperative pain relief. Acta Obstet Gynecol Scand. 1984;63 (2):135-140. doi:
+10.3109/00016348409154648
+7 Schewe JC, Komusin A, Zinserling J, Nadstawek J, Hoeft A, Hering R. Effects of spinal anaesthesia versus epidural
+anaesthesia for caesarean section on postoperative analgesic consumption and postoperative pain. Eur J
+Anaesthesiol. 2009;26(1):52-59. doi:10.1097/EJA.0b013e328318c639
+12
+8 Reza FM, Zahra F, Esmaeel F, Hossein A. Preemptive analgesic effect of ketamine in patients undergoing elective
+cesarean section. Clin J Pain. 2010;26(3):223-226. doi:10.1097/AJP.0b013e3181bff86d
+9 Baraka A, Louis F, Dalleh R. Maternal awareness and neonatal outcome after ketamine induction of anaesthesia for
+Caesarean section. Can J Anaesth. 1990;37(6):641-644. doi:10.1007/BF03006482
+10 Green SM, Roback MG, Kennedy RM, Krauss B. Clinical practice guideline for emergency department ketamine
+dissociative sedation: 2011 update. Ann Emerg Med. 2011;57(5):449-461. doi:10.1016/j.annemergmed.2010.11.030
+11 Adams HA, Meyer P, Stoppa A, Müller-Goch A, Bayer P, Hecker H. [Anaesthesia for caesarean section. Comparison
+of two general anaesthetic regimens and spinal anaesthesia]. Anaesthesist. 2003;52(1):23-32. doi:10. 1007/s00101-
+002-0440-4
+12 Ellingson A, Haram K, Sagen N, Solheim E. Transplacental passage of ketamine after intravenous administration.
+Acta Anaesthesiol Scand. 1977;21(1):41-44. doi:10.1111/j.1399-6576.1977.tb01191.x SUPPLEMENT
+13 Morgan PJ, Halpern S, Lam-McCulloch J. Comparison of maternal satisfaction between epidural and spinal
+anesthesia for elective Cesarean section. Can J Anaesth. 2000;47(10):956-61.
+14 White PF, Ham J, Way WL, Trevor AJ. Pharmacology of ketamine isomers in surgical patients. Anesthesiology. 1980;
+52(3):231-9.
+15 White PF, Schüttler J, Shafer A, Stanski DR, Horai Y, Trevor AJ. Comparative pharmacology of the ketamine
+isomers. Studies in volunteers. Br J Anaesth. 1985;57(2):197-203.
+16 Strümper D, Gogarten W, Durieux ME, Hartleb K, Van Aken H, Marcus MAE. The effects of S+-ketamine and
+racemic ketamine on uterine blood flow in chronically instrumented pregnant sheep. Anesth Analg. 2004;98(2):497-
+502.
+17 Unlugenc H, Ozalevli M, Gunes Y, Olguner S, Evrüke C, Ozcengiz D, Akman H. A double- blind comparison of
+intrathecal S(+) ketamine and fentanyl combined with bupivacaine 0.5% for Caesarean delivery. Eur J Anaesthesiol.
+2006;23(12):1018-24.
+List of duplicate references:
+The following references were flagged as potential duplicates or near-duplicates of other citations in the list; please review
+and consolidate if needed.
+1 Suppa E, Valente A, Catarci S, Zanfini BA, Draisci G. A study of low-dose S-ketamine infusion as "preventive" pain
+treatment for cesarean section with spinal anesthesia: benefits and side effects. Minerva Anestesiol. 2012;78 (7):774-
+781.
+2 Strümper D, Gogarten W, Durieux ME, Hartleb K, Van Aken H, Marcus MAE. The effects of S+-ketamine and racemic
+ketamine on uterine blood flow in chronically instrumented pregnant sheep. Anesth Analg. 2004;98(2):497-502.
+3 Suppa E, Valente A, Catarci S, Zanfini BA, Draisci G. A study of low-dose esketamine infusion as "preventive" pain
+treatment for cesarean section with spinal anesthesia: benefits and side effects. Minerva Anestesiol. 2012;78(7):774-
+81.
+13
+4 Strümper D, Gogarten W, Durieux ME, Hartleb K, Van Aken H, Marcus MAE. The effects of S+-ketamine and racemic
+ketamine on uterine blood flow in chronically instrumented pregnant sheep. Anesth Analg. 2004;98(2): 497-502. doi:
+10.1213/01.ANE.0000096243.74182.5E
+List of unverified references:
+The following references could not be verified in our database or are published in journals not currently indexed in SCOPUS,
+Web of Science, or DOAJ; please review their suitability.
+1 Spinal versus epidural anaesthesia for caesarean section
+2
+14
+Severity:  | Confidence: Minor MediumWeakness
+Section-wise analysis of strengths and weaknesses identified in the literature review and evidence integration.
+
+## Methods: Study design
+HPLC methods citation does not match esketamine assay claim
+In Methods, esketamine plasma concentrations are said to be measured with reverse-phase HPLC, supported only by
+reference 15. That paper (Choudhary et al., 2021, doi:10.1007/s11046-020-00514-0) describes an RP‐HPLC assay for
+triazole antifungals in serum, not for ketamine/esketamine or structurally similar analytes. While both use RP‐HPLC, the
+cited method is specific to different drugs and matrices and is not a direct validation or methodological reference for
+esketamine quantification. This misalignment weakens the evidentiary support for the assay, risks misleading readers
+about how well validated the bioanalytical method is, and deviates from best practice in methods citation (which
+recommends citing analyte‐specific or closely related validation work). It slightly undermines confidence in the
+pharmacokinetic component and contributes to citation inaccuracy.
+blood were collected in the esketamine group (n = 13) and stored in a −20 °C refrigerator. Esketamine
+"concentrations were measured
+Recommendation:
+Replace or supplement reference 15 with a method paper that specifically validates ketamine/esketamine
+measurement in human blood, or provide brief validation data and clearly state that the triazole method was only
+adapted rather than directly applicable.
+15
+Severity:  | Confidence: Minor MediumWeakness
+Severity:  | Confidence: Minor MediumWeakness
+
+## Methods: Study design
+One reference in prophylactic ketamine/esketamine claim is off-topic
+The Discussion states that low-dose ketamine and esketamine have been used prophylactically around cesarean
+delivery to improve analgesia and relieve depression, citing 1, 12, 24–26. References 12 (Suppa et al., 2012), 24 (Ma et
+al., 2019), 25 (Yao et al., 2020), and 26 (Wang et al., 2022) are directly relevant, as they involve ketamine/esketamine
+around cesarean section with analgesic or postpartum depression outcomes. However, reference 1 (Ng et al., 2004
+Cochrane review on spinal vs epidural anesthesia for cesarean) evaluates neuraxial techniques and does not address
+prophylactic ketamine/esketamine, analgesic augmentation, or depression. In this citation cluster, ref 1 does not
+substantively support the specific prophylactic ketamine/esketamine claim and functions as padding. Such misaligned
+citations can overstate the depth of the evidence base, obscure which data truly underpin specific conclusions, and
+modestly erode the transparency of the literature review.
+dose ketamine and esketamine have been used prophylactically in women undergoing cesarean delivery and are
+"reported to be effective in improving analgesia and relieving depression.1,12,24-26
+Recommendation:
+Remove reference 1 from this specific citation cluster or replace it with another trial or review that actually evaluates
+peri‐cesarean ketamine/esketamine for analgesia or postpartum depression.
+
+## Methods: Study design
+“Previous ketamine studyˮ citation does not match analgesia-focused comparison
+The authors contrast their findings with “previous results with ketamine,18ˮ implying prior evidence that low-dose
+ketamine before incision improves intra- or postoperative analgesia, then illustrate this with Adhikari et al. (ref 28),
+which is appropriate. However, reference 18 (Burke et al., 2022, doi:10.1002/ijgo.13965) analyzes a ketamine-based
+package for emergency cesarean delivery without an anesthetist, primarily addressing feasibility and safety in low‐
+resource emergency settings. It does not focus on subanesthetic ketamine as an adjunct to neuraxial anesthesia with
+detailed 24‐hour analgesia outcomes analogous to the present trial. Using this study as the key “previous ketamineˮ
+comparator for analgesic efficacy is therefore misleading. This mis-citation exaggerates how directly comparable
+earlier work is to the current design and may confuse readers about the nature of existing evidence on pre‐incision low-
+dose ketamine for cesarean analgesia.
+Different from previous results with ketamine,18 the results of our study did not indicate clinically important
+"improvement in analgesia either intraoperatively or up to 12 hours after surgery.
+Recommendation:
+Limit the direct efficacy comparison to trials that actually evaluate low-dose ketamine as an adjunct to neuraxial or
+general anesthesia with postoperative pain outcomes (e.g., Adhikari et al., 2021, BMJ Open, doi:10.1136/bmjopen-
+2020-044168) and reword or remove reference 18 from this specific comparison.
+16
+Severity:  | Confidence: Minor HighWeakness
+
+## Methods: Study design
+Reference list contains duplicate and unverified entries
+Integrity Checks identify 4 duplicate references (e.g., the Strümper et al. 2004 sheep study and the Suppa et al. 2012
+esketamine infusion trial each listed twice with slightly different formatting) and 2 unverified references, one of which is
+an incomplete entry. With 56 total citations, this represents approximately 7% duplication plus some bibliographic
+incompleteness. While these issues do not change the substantive evidence base, they reflect imperfect reference
+management and can complicate verification by readers and indexers. From a literature‐use perspective, duplicated
+entries may subtly inflate apparent citation volume and obscure how many distinct sources underlie key statements,
+which conflicts with best‐practice reporting standards (e.g., ICMJE).
+Recommendation:
+Clean the reference list to remove duplicates, correct incomplete entries, and ensure that each numbered reference
+corresponds to a single, fully verifiable source.
+
+## Methods: Study design
+Introduction integrates preclinical, intrathecal, and postpartum esketamine data well
+The Introduction builds a coherent rationale by linking preclinical uterine perfusion data (Strümper et al., 2004, Anesth
+Analg, doi:10.1213/01.ANE.0000096243.74182.5E), intrathecal esketamine in cesarean delivery (Unlugenc et al., 2006,
+Eur J Anaesthesiol), and preventive esketamine infusion after cesarean (Suppa et al., 2012, Minerva Anestesiol). It then
+positions the gap around *intravenous* esketamine given before childbirth under epidural anesthesia. This layered use
+of animal, regional-analgesia, and postpartum infusions reflects good practice in framing a novel question on a
+continuum of prior evidence, while avoiding overstatement of novelty. The literature review thus credibly motivates the
+trialʼs focus on supplemental IV esketamine during cesarean delivery.
+uterine perfusion and has limited effects on maternal and fetal hemodynamics and respiration when compared with
+racemic ketamine; thus, it might be an appropriate analgesic in the obstetric setting. In a clinical study of women
+undergoing cesarean delivery, Unlugenc et al11 found that adding esketamine... Suppa et al12 reported that...
+"However, the efficacy and safety of intravenous esketamine before childbirth are still unclear.
+17
+
+## Methods: Study design
+Cites numerous recent, high-quality ketamine/esketamine cesarean trials and reviews
+The Discussion situates findings within a broad, up-to-date clinical literature: peri‐cesarean ketamine for analgesia (e.
+g., Adhikari et al., 2021, BMJ Open, doi:10.1136/bmjopen-2020-044168; Bilgen et al., 2012), ketamine and esketamine to
+reduce postpartum depression (Ma et al., 2019, Psychiatry Res; Yao et al., 2020, Brain Behav; Wang et al., 2022,
+Comput Math Methods Med), S‐ketamine in PCIA (Han et al., 2022, BMC Anesthesiol, doi:10.1186/s12871-022-01588-7),
+and dose‐finding for spinal ropivacaine with IV S‐ketamine (Zhang et al., 2021, BMC Pregnancy Childbirth). They also
+reference contemporary systematic reviews on ketamine/esketamine for depression (Molero et al., 2018; McIntyre et
+al., 2021). This breadth and recency reduce risk of bias from selective citation and strengthen the credibility and
+generalizability of the authorsʼ interpretation.
+cesarean delivery and are reported to be effective in improving analgesia and relieving depression.1,12,24-26 In a
+"sequential dose-finding study, an intravenous dose of 0.15 mg/kg of esketamine...27
+18
+Partial Compliance with
+Reporting Standards
+Reporting Guidelines Compliance Review
+Assessment Summary
+COMPLIANCE SCORE
+/10070
+SECTIONS ASSESSED
+Items42
+GUIDELINE
+CONSORT 2025
+ASSESSMENT DATE
+2026-07-27
+Compliance Overview
+70
+/100
+Compliant
+sections13
+( %)31
+Meets reporting guideline
+standards
+Partial
+sections22
+( %)52
+Partially meets guideline
+standards
+Non-Compliant
+sections7
+( %)17
+Substantial deviation from
+guidelines
+19
+Section Compliance Overview
+Section Compliance Compliant Partial Non-Compliant
+Title and Abstract %88 1 1 0
+Open Science %65 1 3 1
+Introduction %88 1 1 0
+Methods %73 7 11 3
+Results %57 2 5 3
+Discussion %88 1 1 0
+20
+
+## Title: Item 1a
+Title clearly identifies the study as a randomized clinical trial.
+The title explicitly includes the phrase 'A Randomized Clinical Trial', clearly identifying the study design as a
+randomized trial in line with CONSORT requirements. This unambiguously informs readers of the trial nature from the
+title alone.
+"Randomized Clinical Trial
+
+## Abstract: Item 1b
+Structured abstract with key design and results elements but missing framework, allocation method, blinding
+details, and funding source.
+The abstract is clearly structured (IMPORTANCE/OBJECTIVE/DESIGN, SETTING, AND PARTICIPANTS/INTERVENTION
+/MAIN OUTCOMES AND MEASURES/RESULTS/CONCLUSIONS AND RELEVANCE/TRIAL REGISTRATION) and reports
+objectives, trial design, setting, eligibility, interventions, primary and secondary outcomes, numbers randomized and
+analyzed, primary outcome results with effect sizes and CIs, important harms, interpretation, and trial registry ID.
+However, it does not specify the trial framework (eg, superiority), the allocation method (eg, computer-generated
+sequence, 1:1 ratio), or who was blinded, and it omits the funding source. These omissions mean the abstract does not
+fully meet CONSORT requirements for a complete structured summary.
+to receive intravenous injection of 0.25 mg/kg of esketamine or placebo... A total of 600 women... were enrolled
+"and randomized; all wer
+Recommendation:
+Add brief details on the trial framework (e.g., superiority), allocation method and ratio, who was blinded
+(participants, clinicians, outcome assessors), and the funding source to the abstract.
+21
+
+## Open_science: Item 2
+Registry name and identifier reported, but no URL, registration date, or statement on registry results posting.
+The text clearly identifies the trial registry (ClinicalTrials.gov) and provides the registration identifier (NCT04548973).
+However, it does not give a direct URL to the registry entry, does not state the date of registration, and does not
+indicate whether results are posted in the registry or published elsewhere beyond the journal citation, which limits full
+transparency per CONSORT 2025 open science guidance.
+"e239321. doi:10.1001/jamanetworkopen.2023.9321
+Recommendation:
+Add the full registry URL, the date of trial registration, and a brief statement on whether results are posted in the
+registry (with link) and how they relate to the current publication.
+
+## Open_science: Item 3
+No information on where the full protocol or statistical analysis plan can be accessed.
+The provided text does not mention a trial protocol, statistical analysis plan, or any repository/URL/DOI where these
+documents can be accessed. Without explicit links or access information, readers cannot verify prespecified methods
+or analyses, which is required for open science transparency.
+Recommendation:
+Specify where the full trial protocol and statistical analysis plan can be accessed (e.g., registry entry, institutional
+repository, journal supplement) and provide stable URLs or DOIs for each.
+22
+
+## Open_science: Item 4
+Data-sharing statement describes availability and access process but lacks clarity on de-identification and data
+dictionary/code/materials.
+The manuscript includes a data-sharing statement indicating that participant data are available, how to request access
+(contact email), eligibility (approved researchers), timing (with publication), and general conditions of use. However, it
+states 'Participant data with identifiers', which conflicts with the CONSORT requirement for de-identified data, and does
+not mention a data dictionary, statistical code, or other study materials, nor a repository location, leaving important
+aspects of data and materials sharing unclear.
+"When available: With publication... Mechanisms of data availability: with investigator support
+Recommendation:
+Clarify that only de-identified participant data will be shared, specify whether a data dictionary, statistical code, and
+other study materials will be shared and where (e.g., repository URL), and detail the access mechanism and any
+restrictions in a concise data-sharing statement.
+
+## Open_science: Item 5a
+Multiple funding sources listed with grant numbers and an explicit statement that funders had no role in the trial.
+The manuscript clearly lists all funding sources by name and grant number, indicating monetary support from several
+Chinese national and regional funding bodies. It also explicitly states that the funders had no role in the study design,
+conduct, data collection/management/analysis, manuscript preparation or review, or the decision to submit, satisfying
+CONSORT requirements on funder role transparency.
+Foundation of China... Role of the Funder/Sponsor: The funding sources had no role in the design and conduct of
+"the study...
+23
+
+## Open_science: Item 5b
+Authors state no conflicts of interest, but no detail on scope or mitigation measures.
+The text includes a brief conflict of interest statement indicating that no conflicts were reported, which addresses
+financial and non-financial conflicts at a basic level. However, it does not explicitly confirm that all authors completed
+standard disclosure forms, nor does it describe any procedures used to mitigate potential conflicts, which would
+strengthen transparency under CONSORT 2025 expectations.
+Recommendation:
+Clarify that all authors completed standardized conflict-of-interest disclosures (e.g., ICMJE forms) and, if
+applicable, briefly describe any institutional or editorial measures in place to manage potential conflicts, even when
+none are reported.
+
+## Introduction: Item 6
+Background explains clinical problem, prior evidence on esketamine, and rationale for this trial.
+The introduction clearly describes the clinical context of epidural anesthesia for cesarean delivery, the problem of
+intraoperative pain, and limitations of existing supplemental analgesics. It summarizes preclinical and clinical evidence
+on esketamineʼs potential benefits and safety in obstetric settings and explicitly identifies the remaining uncertainty
+about intravenous esketamine before childbirth, justifying the need for this trial. The comparator choice (standard
+epidural anesthesia with existing agents) is implicit but not elaborated in detail, yet the rationale for testing esketamine
+in this setting is sufficiently clear.
+therefore investigated the sedative and analgesic effects of intravenous esketamine before childbirth during
+"cesarean delivery with epidural
+24
+
+## Introduction: Item 7
+Objectives are stated but lack explicit specification of primary outcome and time point.
+The text states that the study investigated sedative and analgesic effects of intravenous esketamine before childbirth
+and observed placental transfer and maternal and fetal outcomes, which provides general objectives. However, it does
+not clearly identify which outcome is primary, the specific measurement time points, or fully structured hypotheses
+related to participants, comparator, and primary outcome. As a result, the objectives are only partially aligned with
+CONSORT requirements for specificity.
+during cesarean delivery with epidural anesthesia. We also observed placental transfer as well as the effects on
+"maternal and fetal out
+Recommendation:
+Clarify the primary objective and outcome with time point (e.g., 'Our primary objective was to compare
+intraoperative pain scores at [specified time] between women receiving intravenous esketamine before childbirth
+and those receiving standard care; secondary objectives included assessing placental transfer and maternal and
+neonatal outcomes at [specified times]').
+
+## Methods: Item 8
+No description of patient or public involvement in trial design, conduct, or reporting.
+The methods describe ethics approval, consent, protocol, and SAP but do not mention any patient or public
+involvement at any stage of the trial. There is also no explicit statement that patients or the public were not involved, so
+the CONSORT requirement is not met.
+"University School of Medicine and registered at ClinicalTrials.gov...
+Recommendation:
+Add a clear statement on patient/public involvement, specifying whether and how they contributed to design,
+conduct, or reporting, or explicitly state that no patient or public involvement occurred.
+25
+
+## Methods: Item 9
+Trial described as double-blinded, placebo-controlled randomized, but framework and unit of randomisation not
+explicitly stated.
+The manuscript states this is a double-blinded, placebo-controlled randomized clinical trial with a 1:1 allocation ratio,
+implying a parallel-group design. However, it does not explicitly label the framework (e.g., superiority) or clearly state
+the unit of randomisation, though individual randomisation is strongly implied.
+"centers for eligibility... Random allocations were generated... in a 1:1 ratio.
+Recommendation:
+Explicitly state the trial design as an individually randomised parallel-group superiority trial and confirm the unit of
+randomisation (individual parturients).
+
+## Methods: Item 10
+States that there were no important changes after trial commencement.
+The methods explicitly state that there were no important changes after the trial commenced, implying no protocol
+amendments affecting outcomes, analyses, or other key aspects. This satisfies the requirement to report important
+changes or confirm that none occurred.
+26
+
+## Methods: Item 11
+Hospital setting and number of centers given, but specific site locations not fully detailed.
+The trial is described as involving 903 parturients from 5 medical centers, and ethics approval is linked to a specific
+womenʼs hospital, indicating a hospital setting. However, the geographic locations of all centers (e.g., cities, countries)
+and their names are not fully specified in this excerpt.
+"centers for eligibility.
+Recommendation:
+Specify the settings and locations of all sites (e.g., hospital names, cities, country) and confirm the number of
+participating centers.
+
+## Methods: Item 12a
+Inclusion and exclusion criteria for participants are clearly detailed.
+The manuscript provides explicit inclusion criteria (age, pregnancy characteristics, anesthesia type) and a
+comprehensive list of exclusion criteria (BMI, comorbidities, obstetric complications, fetal conditions, and
+contraindications to epidural anesthesia). This meets CONSORT requirements for eligibility criteria; recruitment
+methods are partly implied by scheduled elective cesarean lists.
+elective cesarean delivery with epidural anesthesia. The exclusion criteria included the following: (1) body mass
+"index... of 27 or greater;
+27
+
+## Methods: Item 12b
+Named anesthesiologists but no explicit eligibility criteria for sites or providers.
+The text lists the attending anesthesiologists who administered the study drugs and notes that 5 medical centers
+participated, but it does not specify eligibility criteria for sites or for individuals delivering the interventions (e.g.,
+required training or experience). Some implicit criteria may exist but are not described.
+Recommendation:
+If relevant, describe any eligibility or qualification criteria for participating centers and for anesthesiologists
+delivering the interventions (e.g., minimum experience, certification).
+
+## Methods: Item 13
+Intervention and comparator are well described, but fidelity, tailoring, and co‐interventions are not fully addressed.
+The anesthesia management and esketamine vs saline placebo regimens are described in detail, including doses,
+timing, and procedures, allowing basic replication. However, there is no explicit description of adherence/fidelity
+assessment, criteria for modifying the intervention, allowed/prohibited co‐interventions, or where to access any
+intervention manuals, and 'routine' care is not fully characterized.
+"esketamine group; the same volume of normal saline was injected for patients in the control group.
+Recommendation:
+Add information on how adherence/fidelity to the intervention protocol was monitored, any tailoring or modification
+criteria, permitted/prohibited co‐interventions, and a brief description of routine perioperative care or links to any
+intervention manuals if available.
+28
+
+## Methods: Item 14
+Primary and secondary outcomes, variables, and time points are detailed, but analysis metrics and aggregation
+methods are incomplete.
+The manuscript clearly defines coprimary outcomes (NRS pain and Ramsay sedation immediately after fetal delivery)
+and multiple secondary outcomes with measurement tools and time points. However, it does not explicitly state the
+primary analysis metric (e.g., change from baseline vs absolute score), method of aggregation (mean vs median) for
+each outcome, who assessed outcomes, or any rationale/core-outcome-set information.
+"delivery. Pain intensity was assessed with the numeric rating scale (NRS... at the following time points...
+Recommendation:
+Specify for each primary and key secondary outcome the analysis metric (e.g., absolute score vs change from
+baseline), method of aggregation (mean, median, proportion), who performed the assessments, and note any use
+of core outcome sets or rationale for outcome selection.
+
+## Methods: Item 15
+Harms are defined and listed, but assessment methods and blinding details are limited.
+The manuscript defines several adverse events (hypotension, hypertension, bradycardia, tachycardia, desaturation,
+nausea/vomiting, neurologic and mental symptoms) and states that adverse events were monitored and managed per
+routine practice. However, it does not specify the systematic assessment methods (e.g., active surveillance schedule),
+who assessed harms, whether assessors were blinded, coding systems, or severity grading.
+decrease less than 20 percent of baseline... We also monitored the occurrence of nausea and vomiting, as well as
+"neurologic and mental signs a
+Recommendation:
+Describe how harms were systematically assessed (timing, data sources, who collected them, blinding status), any
+coding or severity grading used, and how multiple events were grouped or summarized.
+29
+
+## Methods: Item 16a
+Sample size calculation with assumptions, alpha, power, and software is clearly reported.
+The sample size section specifies the primary outcome (NRS pain score), hypothesized mean difference, group-
+specific SDs, alpha, power, required sample per group, allowance for dropout, planned enrollment, and the software
+used (PASS). This fulfills CONSORT requirements for transparent sample size determination.
+esketamine group and 1.23 in the control group. With alpha set at .05 and power at 90 percent , 263 patients were
+"needed in each group...
+
+## Methods: Item 16b
+No mention of interim analyses or stopping guidelines.
+The statistical analysis section does not describe any planned interim analyses or stopping rules, nor does it explicitly
+state that no interim analyses were planned. This leaves the reader uncertain about whether early stopping was
+considered.
+"software...
+Recommendation:
+State explicitly whether interim analyses and stopping guidelines were planned; if none were planned, add a
+sentence such as 'No interim analyses or formal stopping guidelines were specified.'
+30
+
+## Methods: Item 17a
+Random sequence generation method is given, but the responsible person or role is not specified.
+The manuscript reports that random allocations were generated using SPSS software in a 1:1 ratio, indicating a
+computer-generated random sequence. However, it does not state who (which role or independent party) generated
+the sequence, which is needed to fully assess allocation independence.
+Recommendation:
+Specify who generated the random allocation sequence (e.g., an independent statistician, study coordinator) and
+confirm that this person was not involved in participant enrollment or assignment.
+
+## Methods: Item 17b
+Type of randomisation implied but no details on restrictions such as blocking or stratification.
+The use of SPSS to generate random allocations in a 1:1 ratio suggests simple randomisation, but the manuscript does
+not explicitly state the type of randomisation or whether any restrictions (blocking, stratification, minimisation) were
+used. This limits transparency about the allocation process.
+Recommendation:
+Clarify the type of randomisation (e.g., simple randomisation) and state whether any restrictions such as blocking
+(with block sizes) or stratification factors were used.
+
+## Methods: Item 18
+Allocation concealment via sequentially numbered opaque envelopes is clearly described.
+The manuscript states that assignments were concealed in sequentially numbered opaque envelopes, opened by study
+coordinators before anesthesia according to recruitment sequence, which describes the mechanism and timing of
+allocation concealment. This indicates reasonable prevention of foreknowledge until assignment.
+"coordinators... opened the envelopes according to the recruitment sequence...
+31
+
+## Methods: Item 19
+Roles in enrollment and assignment are partly described, but access to the sequence is not fully clarified.
+The text explains that study coordinators opened envelopes and prepared study drugs, and that anesthesiologists and
+others were blinded, implying that only coordinators had access to allocations at assignment. However, it does not
+explicitly state whether personnel who enrolled participants had access to the random sequence or how access was
+controlled beyond the envelope system.
+"envelopes... and gave the study drugs to the attending anesthesiologists...
+Recommendation:
+Clarify who enrolled participants, whether they had access to the allocation sequence, and confirm that only
+designated personnel (e.g., coordinators) accessed envelopes at the time of assignment.
+
+## Methods: Item 20a
+Participants, care providers, and outcome-related investigators are reported as blinded.
+The manuscript states that all patients, anesthesiologists, other health care team members, and investigators
+responsible for data collection and follow-ups were blinded to group allocation. This clearly identifies the main parties
+blinded after assignment.
+"for data collection and follow-ups were blinded to group allocation.
+32
+
+## Methods: Item 20b
+Blinding achieved with identical-appearing placebo, but maintenance and assessment of blinding not detailed.
+Blinding is described as using esketamine or an identical-appearing saline placebo prepared by coordinators, which
+explains how initial blinding was achieved. However, there is no information on procedures to maintain blinding, any
+assessment of blinding success, or handling of potential unblinding events.
+"attending anesthesiologists...
+Recommendation:
+Provide more detail on how blinding was maintained throughout the trial, whether blinding was formally assessed,
+and any procedures for or occurrences of unblinding.
+
+## Methods: Item 21a
+Statistical methods, effect measures, multiplicity handling, and software are well described.
+The statistical analysis section specifies tests for continuous and categorical variables, presentation formats (means
+/SDs, medians/IQRs, numbers/percentages), effect measures and CIs for primary and key secondary outcomes,
+adjusted significance thresholds for coprimary outcomes and Bonferroni corrections, and software used (SPSS,
+GraphPad). Harms are not separately detailed but appear to follow the same methods.
+were presented as means (SDs)... Categorical variables were analyzed using the X 2 test... For the primary
+"outcomes, the differences bet
+
+## Methods: Item 21b
+Analysis populations (intention-to-treat and per-protocol) and group assignment basis are defined.
+The manuscript states that outcome analysis was performed in the intention-to-treat population, with all patients
+analyzed in their assigned groups, and that primary outcomes were also analyzed in a per-protocol population
+excluding protocol deviations. This clearly defines who was included in each main analysis and on what basis.
+the group to which they were assigned. For the primary outcomes, we also performed analysis in the per-protocol
+"population, excludin
+33
+
+## Methods: Item 21c
+No description of how missing data were handled in analyses.
+The statistical analysis section does not mention missing data, assumptions about missingness, or any methods used to
+handle missing values (e.g., complete case analysis, imputation) or related sensitivity analyses. This omission prevents
+assessment of potential bias from missing data.
+Recommendation:
+Add a description of how missing data were handled for each outcome (e.g., complete case, multiple imputation),
+the assumptions underlying these methods, and any sensitivity analyses performed to assess robustness.
+
+## Methods: Item 21d
+Per-protocol analysis is described, but other additional analyses and prespecification status are not detailed.
+The manuscript notes an additional per-protocol analysis for primary outcomes, which is an extra analysis beyond the
+main ITT. However, it does not clearly distinguish which additional analyses (e.g., subgroup, sensitivity) were
+prespecified versus post hoc, nor does it describe methods for any such analyses beyond the per-protocol comparison.
+"with protocol deviation.
+Recommendation:
+Clearly describe any additional analyses (e.g., per-protocol, subgroup, sensitivity), specify their statistical methods,
+and indicate for each whether it was prespecified in the protocol/SAP or conducted post hoc.
+34
+
+## Results: Item 22a
+Numbers randomised and analysed are given, but receipt of intended intervention and full follow-up details are
+incomplete in this excerpt.
+The text reports that 600 women were enrolled and randomized (300 per group) and that all 600 were included in the
+intention‐to‐treat analysis, with 597 in the per‐protocol analysis, and references a flow diagram (Figure 1). However, it
+does not explicitly state, by group, how many actually received the intended intervention or completed follow‐up for the
+primary outcome within this excerpt; these details are likely in Figure 1 but are not visible here.
+drugs, and 4 women refused follow-up at 12 hours after the surgery. As a result, all 600 women (n = 300 in each
+"group) were included in
+Recommendation:
+Explicitly report, for each group, the numbers who were randomised, received the intended intervention, completed
+follow‐up for the primary outcome, and were analysed, ideally summarised in both text and a CONSORT flow
+diagram.
+
+## Results: Item 22b
+Losses and exclusions are mentioned but not broken down by group or fully detailed.
+The manuscript notes that 3 women did not receive study drugs and 4 refused follow‐up at 12 hours after surgery,
+implying post‐randomisation losses. However, it does not specify which groups these participants belonged to or
+provide detailed reasons beyond brief descriptors, and no group‐specific counts of exclusions are given in this excerpt.
+"hours after the surgery.
+Recommendation:
+Provide, for each group, the number of participants lost or excluded after randomisation along with specific reasons
+(e.g., protocol violations, withdrawal of consent), and indicate at which stage these occurred, preferably in both the
+flow diagram and text.
+35
+
+## Results: Item 23a
+Recruitment and follow‐up dates and durations are not reported in this Results excerpt.
+The provided Results section does not include calendar dates for the start and end of recruitment, the date of follow‐up
+completion, or explicit follow‐up duration for outcomes of benefit and harm. While some outcome time points (e.g., 12
+hours, first postoperative day) are described, these are measurement times rather than the required recruitment/follow‐
+up period dates.
+Recommendation:
+Add explicit dates defining the recruitment period (start and end), the date when follow‐up for primary and key
+secondary outcomes was completed, and the follow‐up duration for benefits and harms (e.g., 'Participants were
+recruited from March 1, 2022, to February 28, 2023, and followed until 30 days postpartum').
+
+## Results: Item 23b
+No information is provided on whether the trial ended as planned or was stopped early.
+The Results text does not state whether the trial was completed as originally planned or stopped early, nor does it
+describe any reasons, decision‐makers, or funder roles related to early termination. In the absence of such statements,
+readers cannot assess whether the trial duration or sample size was influenced by interim findings or external factors.
+Recommendation:
+Include a statement clarifying whether the trial ended as planned; if it ended early, report the reason, who made the
+decision (e.g., data monitoring committee, investigators), and any role of funders in that decision.
+36
+
+## Results: Item 24a
+Results section does not describe how interventions were actually delivered, adherence, or fidelity.
+This Results excerpt focuses on outcomes and adverse events and does not report who delivered the esketamine
+/placebo, whether the interventions were administered as intended, or any measures of adherence or protocol
+deviations. Although 3 women did not receive study drugs, no further detail on intervention delivery or fidelity is
+provided here.
+Recommendation:
+Report, in the Results, how the intervention and comparator were actually administered (e.g., provider type, dosing
+consistency), adherence rates, any protocol deviations (including the 3 who did not receive study drugs) and how
+these affected fidelity to the planned intervention.
+
+## Results: Item 24b
+Some concomitant intraoperative care (vasopressor use) is reported, but broader concomitant care is not fully
+described.
+Table 1 includes 'Use of vasopressors' with counts and percentages per group, indicating at least one form of
+concomitant intraoperative care. However, other potential concomitant treatments (e.g., other medications, standard
+anesthetic regimen, postoperative analgesia or antiemetics) are not detailed in this Results excerpt, limiting
+understanding of co‐interventions.
+Recommendation:
+Expand reporting of concomitant care by describing key co‐interventions received by each group (e.g., anesthetic
+agents, analgesics, antiemetics, other relevant medications) with numbers/percentages, and clarify whether these
+were balanced between groups.
+37
+
+## Results: Item 25
+A detailed baseline characteristics table with demographic and clinical variables is provided for each group.
+Table 1 presents baseline demographic (age, height, weight, BMI) and clinical characteristics (comorbidities,
+gynecologic diseases, history of surgery, gestational duration, ASA class, study site) as well as intraoperative variables,
+with appropriate formats (means with SDs, medians with IQRs, counts with percentages) for both placebo and
+esketamine groups. This meets CONSORT requirements for baseline characteristics reporting.
+"/tr><tr><td>Age, mean (SD),y</td><td>30.9 (4.3)</td><td>30.4 (4.2)</td></tr>...
+
+## Results: Item 26
+Primary and several secondary outcomes are reported with group results and effect estimates, but numbers with
+available data at each time point are not consistently given.
+For primary outcomes, Table 2 provides group medians/IQRs, estimated median differences with 95% CIs, P values,
+and per‐protocol sample sizes (n = 298 and 299). Secondary and exploratory outcomes similarly include group results
+and effect sizes (e.g., RR with 95% CI for binary outcomes). However, the number of participants with available data at
+each outcome time point is not systematically reported (beyond per‐protocol Ns), and for some continuous outcomes
+the effect is labeled 'median difference' even when means are shown, which may cause confusion.
+difference,0 (0 to 0)</td><td>.001°</td></tr> ... <tr><td>Numeric rating scale pain score >2 ...</td><td>32 (10.7)<
+"/td><td>18 (6.0)</td><td>RR,0.56
+Recommendation:
+For each primary and secondary outcome, explicitly report the number of participants included in the analysis and
+with available data at the relevant time point for each group, and ensure effect measures and their precision
+(including both absolute and relative effects for all key binary outcomes) are clearly and consistently presented.
+38
+
+## Results: Item 27
+Harms and adverse events are comprehensively reported per group with counts, percentages, and P values.
+Table 3 lists a wide range of intraoperative and postoperative adverse events (e.g., hypotension, hypertension,
+tachycardia, neurologic/mental symptoms, nausea/vomiting) with numbers and percentages for each group and
+associated P values. The text also summarises key differences in harms between groups, and the table indicates when
+events did not occur (0, NA), providing a clear overview of harms.
+"/tr><tr><td>Nausea or vomiting</td><td>33 (11.0)</td><td>69 (23.0)</td><td><.001</td></tr>
+
+## Results: Item 28
+Exploratory analyses are reported, but it is not clear which analyses were prespecified versus post hoc, and no
+sensitivity analyses are described.
+The Results include an 'exploratory analysis' of proportions with NRS >2 and Ramsay ≥4, with RRs and 95% CIs,
+indicating at least some additional analyses beyond primary/secondary outcomes. However, the text does not clearly
+distinguish which subgroup or exploratory analyses were prespecified in the protocol versus conducted post hoc, and
+no sensitivity analyses (e.g., alternative assumptions, missing data handling) are reported in this excerpt.
+after fetal delivery was significantly lower in patients given esketamine ...; the proportion of patients with Ramsay
+"Sedation Scale sc
+Recommendation:
+List all additional analyses (subgroup, exploratory, sensitivity) performed, and explicitly indicate which were
+prespecified in the protocol or statistical analysis plan and which were post hoc; briefly summarise the main
+findings of any sensitivity analyses.
+39
+
+## Discussion: Item 29
+Interpretation reflects the results, balances limited benefits with harms, and is contextualised with prior evidence
+without obvious spin.
+The discussion accurately states that esketamine produced only transient, not clinically important analgesic benefit
+while causing clinically important sedation and mental symptoms, and notes placental transfer without neonatal
+depression, aligning with the reported results. Benefits (reduced proportion with NRS ≥3, hemodynamic effects) are
+explicitly weighed against harms (sedation, neurologic/mental symptoms, potential patient dissatisfaction) and lead to a
+cautious recommendation to reserve use for those with pain or high hypotension risk. Findings are compared with
+multiple prior ketamine/esketamine studies, and the conclusion is appropriately conservative rather than overstated.
+analgesia but raised concern about sedation and mental adverse effects...did not induce significant neonatal
+"depression.
+
+## Discussion: Item 30
+Limitations are discussed but do not explicitly address potential bias sources, generalisability, or multiplicity of
+analyses.
+The limitations section notes several important issues: ceiling effect from excellent control-group analgesia, use of a
+single fixed dose, lack of patient-experience data, and esketamine concentration measurements in only 13 mother–
+fetus pairs, which touches on imprecision. However, it does not explicitly discuss potential sources of bias (e.g.,
+selection, performance, detection, attrition), does not comment on how the trial setting and population may limit
+generalisability, and does not address multiplicity of analyses if multiple outcomes or comparisons were performed. As
+a result, the coverage of CONSORT-specified limitation domains is incomplete.
+sufficient for our control group patients... Second, we only tested the effects of a fixed dose... Fourth, we only
+"measured esketami
+Recommendation:
+Add explicit discussion of potential bias (e.g., selection, performance, detection, attrition), comment on how the trial
+setting and eligibility criteria affect generalisability to broader cesarean populations, and state whether multiple
+outcomes or subgroup analyses were performed and how multiplicity might influence interpretation.
+Thank You!
+Contact Us
+preflight-support@paperpal.com
